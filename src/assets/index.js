@@ -30,9 +30,15 @@ import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+import variety_food from "./variety_food.jpeg";
+import social_media from "./social_media_cover_image.jpeg";
 import tripguide from "./tripguide.png";
+import website_link from "./website_link.png";
 
 export {
+  website_link,
+  social_media,
+  variety_food,
   shabab_logo_again_croped,
   logo,
   backend,

@@ -21,7 +21,8 @@ import {
     tesla,
     shopify,
     carrent,
-    jobit,
+    social_media,
+    variety_food,
     tripguide,
     threejs,
   } from "../assets";
@@ -203,30 +204,32 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Food Delivery",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search, order, and manage food delivery from various providers, providing a convenient and efficient solution for food in home.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "postgresql",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          name: "spring-boot",
+          color: "orange-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: variety_food,
+      link: "https://shabab-food-delivery.vercel.app/",
+      source_code_link_frontend: "https://github.com/ShababKabab/Food_Delivery_Frontend",
+      source_code_link_backend: "https://github.com/ShababKabab/Food_Delivery_Backend",
     },
     {
-      name: "Job IT",
+      name: "Social Media",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to create and view posts, like, comment and save them. Manage a profile and chat with other users providing a platrom for social interaction",
       tags: [
         {
           name: "react",
@@ -237,33 +240,18 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "spring",
           color: "pink-text-gradient",
         },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "mysql",
+          color: "orange-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: social_media,
+      link: "https://shabab-social.vercel.app/",
+      source_code_link_frontend: "https://github.com/ShababKabab/social_media",
+      source_code_link_backend: "https://github.com/ShababKabab/social_media-server",
     },
   ];
   
